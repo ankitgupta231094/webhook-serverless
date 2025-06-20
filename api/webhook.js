@@ -2,7 +2,7 @@
 // • Accepts minimal TradingView alert: {"secret":"U7SQS","signal":"BUY","symbol":"NIFTY","quantity":1}
 // • Builds Dhan multi_leg_order JSON on the fly.
 
-import fetch from 'node-fetch';
+// Using native fetch available in Node.js 18+ on Vercel – no need for node‑fetch
 
 // === ENV ===
 const SECRET            = process.env.DHAN_SECRET;           // "U7SQS"
