@@ -62,7 +62,7 @@ export default async function handler(req, res) {
         transactionType: 'B',
         orderType: 'MKT',
         quantity: quantity.toString(),
-        exchange: 'NFO',
+        exchange: 'NSE',
         symbol: symbol.toUpperCase(),
         instrument: 'OPT',
         productType: 'I',
